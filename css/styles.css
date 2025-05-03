@@ -92,9 +92,10 @@ body{
 
 #form-container{
     flex: 1;
-    background-image: url(/imgs/pattern.png);
-    background-size: cover;
+    background-image: url(../imgs/pattern.png);
     color: #FFF;
+    background-size: cover;
+    height: 729px;
 }
 
 #form-inner{
@@ -151,4 +152,23 @@ body{
     background-color: white;
     color: #0075ff;
     transition: 0.8s;
+}
+
+#benefits{
+    text-align: left;
+    align-self: start;
+}
+
+#benefits h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+#benefits ul{
+    list-style-position: inside;
+}
+
+#benefits li{
+    margin-bottom: 0.5rem;
 }
