@@ -172,3 +172,28 @@ body{
 #benefits li{
     margin-bottom: 0.5rem;
 }
+
+@media (max-width: 450px){
+   #form-inner{
+        width: 65%;
+    }
+
+    #name{
+        width: 155px;
+    }
+
+    #lastname{
+        width: 155px;
+    }
+
+    #benefits h4{
+        text-align: center;
+    }
+
+    #benefits ul{
+        width: 100%;
+    }
+
+    
+
+}
